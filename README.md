@@ -42,7 +42,7 @@ Additionally, you will be gaining knowledge about Kubernetes services and deploy
 
  - To enable Jenkins CI/CD pipeline, they will need to leverage various tools, including `Linux` commands, <br> Jenkins, and Docker. Additionally, they will need a `Docker hub account`, in order to push the Docker <br> image built by the `Ansible Server` to the Docker Hub.
 
- - To ensure that they have access to the most up-to-date image, they must log in to the Docker Hub <br> account. By doing so, they can easily push the latest image to Docker Hub, while simultaneously maintaining <br>a version based on the build.
+ - To ensure that they have access to the most up-to-date image, they must log in to the Docker Hub <br> account. By doing so, they can easily push the latest image to Docker Hub, while simultaneously  <br> maintaining a version based on the build.
 
  - For instance, if you build v1, this will contain a fresh image. Subsequently, if you build a second image <br> (v2), `preforming a version`.It is important that you seperate the `latest image` from previous builds.<br>
 
