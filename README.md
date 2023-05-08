@@ -25,25 +25,25 @@ Additionally, you will be gaining knowledge about Kubernetes services and deploy
 
 ## Agenda 
 
- - When a developer writes a Docker file, they will push it to the corresponding `GitHub repository`. <br> Whenever there is a new commit to the repository, Jenkins will be notified via a webhook, <br> and the pipeline will be initiated accordingly.
+ - When a developer writes a Docker file, they will push it to the corresponding `GitHub repository`. <br> Whenever there is a new commit to the repository, Jenkins will be notified via a webhook, and <br> the pipeline will be initiated accordingly.
 
  - When Jenkins receives a notification from GitHub about new changes, it will fetch all the
   updated <br> code from the repository. When this is completed, Jenkins will establish an SSH connection with <br> Ansible server. This enables the server to access the Dockerfile `pushed` by the developer and <br> subsequently execute  the container image.
 
  - When it gets the docker file it will intitate the process of building the container image based on the <br> docker file. Once the image is successfully built, Jenkins will
-  `tag` it, and push it to the Docker Hub. Meanwhile, <br> the Ansible
+  `tag` it, and push it to the Docker Hub. <br> Meanwhile, the Ansible
   server will perform its second task by establishing an SSH connection <br> with the Kubernetes cluster server. The cluster server will then review the playbook and Ansible will <br> execute it accordingly.
 
  - Using the `kubectl` command, the Kubernetes cluster running our web application will attempt to <br> fetch the
-  latest container image from the Docker registry. Once the image is retrieved, <br> the cluster will start
-  building the image and container, and that container can be accessed using <br> the specified `node IP` and `port` as indicated in the `Service.yaml`.
+  latest container image from the Docker registry. Once the image is retrieved, the cluster <br> will start
+  building the image and container, and that container can be accessed using the <br> specified `node IP` and `port` as indicated in the `Service.yaml`.
   
 
  - To intitiate the Kubernetes deployment, you will start by writing the `Service.yaml` file and transfer it <br> the Kubernetes cluster. This is a key component in acheiving the successful `Kubernetes web deployment`
 
- - To enable Jenkins CI/CD pipeline, we will need to leverage various tools, including `Linux` commands, <br> Jenkins, and Docker. <br> Additionally, you would need a `Dockerhub account`, in order to push the Docker image <br> built by the `Ansible Server` <br> to the Docker Hub.
+ - To enable Jenkins CI/CD pipeline, we will need to leverage various tools, including `Linux` commands, <br> Jenkins, and Docker. Additionally, you would need a `Dockerhub account`, in order to push the Docker <br> image built by the `Ansible Server` <br> to the Docker Hub.
 
- - To ensure that you have access to the most up-to-date image, you must log in to our Docker Hub account. <br> By doing so, you can easily push the latest image to the Docker Hub, while simultaneously <br> maintaining a version based on the build.
+ - To ensure that you have access to the most up-to-date image, you must log in to our Docker Hub account. <br> By doing so, you can easily push the latest image to the Docker Hub, while simultaneously maintaining <br> a version based on the build.
 
  - For instance, if you build v1, this will contain a fresh image. Subsequently, if we build a second image (v2), <br> this will contain the `latest image`. It is important that you seperate the latest image from previous builds.<br>
 
