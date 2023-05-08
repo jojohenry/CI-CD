@@ -19,16 +19,16 @@
 - [Jenkins](https://www.jenkins.io/doc/tutorials/)
 - [Ansible](https://docs.ansible.com/ansible/latest/getting_started/index.html)
 
-In this project, you will learn how to utilize a wide range of DevOps tools including GitHub, Jenkins, Ansible, and a `Kubernetes cluster(2 nodes)` using `Jenkins CI/CD pipeline`. <br>
+In this project, you will learn how to utilize a wide range of DevOps tools including GitHub, Jenkins, <br> Ansible, and a `Kubernetes cluster(2 nodes)` using `Jenkins CI/CD pipeline`. <br>
 
-Additionally, you will be gaining knowledge about Kubernetes services and deployment methods, and writing `Ansible playbooks` and `Dockerfiles` to support our deployment.
+Additionally, you will be gaining knowledge about Kubernetes services and deployment methods, <br> and writing `Ansible playbooks` and `Dockerfiles` to support our deployment.
 
 ## Agenda 
 
- - When a developer writes a Docker file, they will push it to the corresponding `GitHub repository`. Whenever there is a new commit to the repository, <br> Jenkins will be notified via a webhook, and the pipeline will be initiated accordingly.
+ - When a developer writes a Docker file, they will push it to the corresponding `GitHub repository`. <br> Whenever there is a new commit to the repository, <br> Jenkins will be notified via a webhook, <br> and the pipeline will be initiated accordingly.
 
- - When Jenkins receives a notification from GitHub about new changes, it will fetch all the <br>
-  updated code from the repository. When this is completed, Jenkins will establish an SSH connection with Ansible server. This enables the server to access the Dockerfile `pushed` <br> by the developer and subsequently execute the container image.
+ - When Jenkins receives a notification from GitHub about new changes, it will fetch all the
+  updated <br> code from the repository. When this is completed, Jenkins will establish an SSH connection with Ansible server. <br> This enables the server to access the Dockerfile `pushed` by the developer and subsequently execute <br>  the container image.
 
  - When it gets the docker file it will intitate the process of building the container image based on the docker file. Once the image is successfully built, Jenkins will
   `tag` it, <br> and push it to the Docker Hub. Meanwhile, the Ansible
