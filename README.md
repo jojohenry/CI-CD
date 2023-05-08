@@ -12,7 +12,7 @@
 
 ## Prerequisites/tools needed to work on this project. 
  
-- [AWS](https://github.com/awsdocs/amazon-ec2-user-guide/blob/master/doc_source/EC2_GetStarted.md)
+- [AWS EC2](https://www.youtube.com/watch?v=KF35vdfoR3U)
 - [Containers](https://www.redhat.com/en/topics/containers/whats-a-linux-container)
 - [Docker](https://docs.docker.com/get-started/overview/)
 - [Kubernetes](https://github.com/Krishnamohan-Yerrabilli/Kubernetes-hands-on)
@@ -61,15 +61,12 @@ will write `Ansible playbooks` with it, we will also write `Dockerfile`.
  so that the second contains the latest image, we are `performing a version`, also, we have <br>
  to separate the `latest image`.
  
-## Project is divided into 6 parts
+## Project Steps
 
-- [Server Setup](https://github.com/Krishnamohan-Yerrabilli/Deployment-on-K8s-cluster-using-jenkins-CI-CD/tree/main/Server%20Setup) 
-- [Dockerfile - Configure Webhook - Trigger Jenkins Job - git](https://github.com/Krishnamohan-Yerrabilli/Deployment-on-K8s-cluster-using-jenkins-CI-CD/tree/main/Dockerfile%20-%20Configure%20Webhook%20-%20Trigger%20Jenkins%20Job%20-%20git) 
-- [Transfer & Execute files on remote server using SshAgent](https://github.com/Krishnamohan-Yerrabilli/Deployment-on-K8s-cluster-using-jenkins-CI-CD/tree/main/Transfer%20%26%20Execute%20files%20on%20remote%20server%20using%20SshAgent)
-- [Build docker Images using Dockerfile - Tag docker images](https://github.com/Krishnamohan-Yerrabilli/Deployment-on-K8s-cluster-using-jenkins-CI-CD/tree/main/Build%20docker%20Images%20using%20Dockerfile%20-%20Tag%20docker%20images)
-- [Complete Declarative CI/CD Pipelines in Jenkins Project - Push Images to DockerHub](https://github.com/Krishnamohan-Yerrabilli/Deployment-on-K8s-cluster-using-jenkins-CI-CD/tree/main/Complete%20Declarative%20CI-CD%20Pipelines%20in%20Jenkins%20Project%20-%20Push%20Images%20to%20DockerHub)
-- [Complete Deployment on Kubernetes cluster using jenkins CI/CD](https://github.com/Krishnamohan-Yerrabilli/Deployment-on-K8s-cluster-using-jenkins-CI-CD/tree/main/Complete%20Deployment%20on%20Kubernetes%20cluster%20using%20jenkins%20CI-CD)
+- [Step One - Server Setup](https://github.com/Krishnamohan-Yerrabilli/Deployment-on-K8s-cluster-using-jenkins-CI-CD/tree/main/Server%20Setup) 
+- [Step Two - Dockerfile - Configure Webhook - Trigger Jenkins Job - git](https://github.com/Krishnamohan-Yerrabilli/Deployment-on-K8s-cluster-using-jenkins-CI-CD/tree/main/Dockerfile%20-%20Configure%20Webhook%20-%20Trigger%20Jenkins%20Job%20-%20git) 
+- [Step Three - Transfer & Execute files on remote server using SshAgent](https://github.com/Krishnamohan-Yerrabilli/Deployment-on-K8s-cluster-using-jenkins-CI-CD/tree/main/Transfer%20%26%20Execute%20files%20on%20remote%20server%20using%20SshAgent)
+- [Step Four - Build docker Images using Dockerfile - Tag docker images](https://github.com/Krishnamohan-Yerrabilli/Deployment-on-K8s-cluster-using-jenkins-CI-CD/tree/main/Build%20docker%20Images%20using%20Dockerfile%20-%20Tag%20docker%20images)
+- [Step Five - Complete Declarative CI/CD Pipelines in Jenkins Project - Push Images to DockerHub](https://github.com/Krishnamohan-Yerrabilli/Deployment-on-K8s-cluster-using-jenkins-CI-CD/tree/main/Complete%20Declarative%20CI-CD%20Pipelines%20in%20Jenkins%20Project%20-%20Push%20Images%20to%20DockerHub)
+- [Step Six - Complete Deployment on Kubernetes cluster using jenkins CI/CD](https://github.com/Krishnamohan-Yerrabilli/Deployment-on-K8s-cluster-using-jenkins-CI-CD/tree/main/Complete%20Deployment%20on%20Kubernetes%20cluster%20using%20jenkins%20CI-CD)
 
-## ❤ Show your support
-
-Give a ⭐️ if this project helped you, Happy learning!
