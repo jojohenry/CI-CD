@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"name": "Dockerfile - Configure Webhook - Trigger Jenkins Job - git",
+			"path": "."
+		},
+		{
+			"name": "CompleteCICD",
+			"path": "../../../CompleteCICD"
+		},
+		{
+			"path": "../Server Setup"
+		},
+		{
+			"path": "../Transfer & Execute files on remote server using SshAgent"
+		},
+		{
+			"path": "../Build docker Images using Dockerfile - Tag docker images"
+		},
+		{
+			"path": "../Complete Deployment on Kubernetes cluster using jenkins CI-CD"
+		},
+		{
+			"path": "../Complete Declarative CI-CD Pipelines in Jenkins Project - Push Images to DockerHub"
+		}
+	],
+	"settings": {}
+}
