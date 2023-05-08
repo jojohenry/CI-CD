@@ -36,11 +36,11 @@ Additionally, you will be gaining knowledge about Kubernetes services and deploy
 
  - Using the `kubectl` command, the Kubernetes cluster running our web application will attempt to <br> fetch the
   latest container image from the Docker registry. Once the image is retrieved, the cluster <br> will start
-  building the image and container, and that container can be accessed using the <br> specified `node IP` and `port` as indicated in the `Service.yaml`.
+  building the image and container, and that container can be accessed using the specified <br> `node IP` and `port` as indicated in the `Service.yaml`.
   
  - To intitiate the Kubernetes deployment, you will start by writing the `Service.yaml` file and transfer it <br> the Kubernetes cluster. This is a key component in acheiving the successful `Kubernetes web deployment`
 
- - To enable Jenkins CI/CD pipeline, we will need to leverage various tools, including `Linux` commands, <br> Jenkins, and Docker. Additionally, you would need a `Dockerhub account`, in order to push the Docker <br> image built by the `Ansible Server` <br> to the Docker Hub.
+ - To enable Jenkins CI/CD pipeline, we will need to leverage various tools, including `Linux` commands, <br> Jenkins, and Docker. Additionally, you would need a `Dockerhub account`, in order to push the Docker <br> image built by the `Ansible Server` to the Docker Hub.
 
  - To ensure that you have access to the most up-to-date image, you must log in to our Docker Hub account. <br> By doing so, you can easily push the latest image to the Docker Hub, while simultaneously maintaining a <br> version based on the build.
 
