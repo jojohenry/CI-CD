@@ -53,9 +53,9 @@ Additionally, you will be gaining knowledge about Kubernetes services and deploy
 ## Project Steps
 
 - [Step One - Server Setup](https://github.com/jojohenry/CI-CD/tree/main/Deployment%20on%20K8s/Server%20Setup) 
-- [Step Two - Dockerfile - Configure Webhook - Trigger Jenkins Job - git](https://github.com/Krishnamohan-Yerrabilli/Deployment-on-K8s-cluster-using-jenkins-CI-CD/tree/main/Dockerfile%20-%20Configure%20Webhook%20-%20Trigger%20Jenkins%20Job%20-%20git) 
-- [Step Three - Transfer & Execute files on remote server using SshAgent](https://github.com/jojohenry/CI-CD/tree/main/Deployment%20on%20K8s/Transfer%20%26%20Execute%20files%20on%20remote%20server%20using%20SshAgent)
-- [Step Four - Build docker Images using Dockerfile - Tag docker images](https://github.com/jojohenry/CI-CD/tree/main/Deployment%20on%20K8s/Build%20docker%20Images%20using%20Dockerfile%20-%20Tag%20docker%20images)
-- [Step Five - Complete Declarative CI/CD Pipelines in Jenkins Project - Push Images to DockerHub](https://github.com/jojohenry/CI-CD/tree/main/Deployment%20on%20K8s/Complete%20Declarative%20CI-CD%20Pipelines%20in%20Jenkins%20Project%20-%20Push%20Images%20to%20DockerHub)
-- [Step Six - Complete Deployment on Kubernetes cluster using jenkins CI/CD](https://github.com/jojohenry/CI-CD/tree/main/Deployment%20on%20K8s/Complete%20Deployment%20on%20Kubernetes%20cluster%20using%20jenkins%20CI-CD)
+- [Step Two - Using Dockerfile to Configure Webhook and Trigger Jenkins Job](https://github.com/jojohenry/CI-CD/tree/main/Deployment%20on%20K8s/Dockerfile%20-%20Configure%20Webhook%20-%20Trigger%20Jenkins%20Job) 
+- [Step Three - Transfer & Execute Files on Remote Server using SSHAgent](https://github.com/jojohenry/CI-CD/tree/main/Deployment%20on%20K8s/Transfer%20%26%20Execute%20files%20on%20remote%20server%20using%20SshAgent)
+- [Step Four - Building Docker Images using Dockerfile and Tagging Docker Images](https://github.com/jojohenry/CI-CD/tree/main/Deployment%20on%20K8s/Build%20docker%20Images%20using%20Dockerfile%20-%20Tag%20docker%20images)
+- [Step Five - Complete Declarative CI/CD Pipeline in Jenkins and Pushing Image to Docker Hub](https://github.com/jojohenry/CI-CD/tree/main/Deployment%20on%20K8s/Complete%20Declarative%20CI-CD%20Pipelines%20in%20Jenkins%20Project%20-%20Push%20Images%20to%20DockerHub)
+- [Step Six - Complete Deployment on Kubernetes Cluster using Jenkins CI/CD](https://github.com/jojohenry/CI-CD/tree/main/Deployment%20on%20K8s/Complete%20Deployment%20on%20Kubernetes%20cluster%20using%20jenkins%20CI-CD)
 
