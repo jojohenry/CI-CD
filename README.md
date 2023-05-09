@@ -4,8 +4,11 @@
 
 ![completecicd](https://user-images.githubusercontent.com/109822667/234435363-3324cf3c-f48c-40cb-b389-cc0a6d8546ff.png)
 
+</div>
+
 [*Project Source*](https://www.udemy.com/course/valaxy-devops/)
 
+<div align="center">
 ### This Repo is to Teach You Each Tool/Technology and How to Implement the Whole Project Step by Step 
 
 </div>
