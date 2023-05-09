@@ -66,5 +66,3 @@ point of time we can do roll back, let's hop into it.
 ### Images has been successful tagged
 
 ![11-tag-images-successful](https://user-images.githubusercontent.com/58173938/197315324-8352f690-7231-48f2-a55c-e34a1de891c7.png)
-
-That's it for this part, happy learning!!
