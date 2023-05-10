@@ -10,10 +10,7 @@ Provision `3 EC2 instances` For this project purpose, set security groups to all
 
 If you're facing any difficulty to ssh, checkout my trobuleshooting [guide](https://www.reddit.com/user/Mohanse7/comments/y7uu26/troubleshootingfixing_ssm_agent_how_to_perform/)
 
-## Install putty on you're local machine or on you're type2 hypervisor
-
-
-![Putty](https://user-images.githubusercontent.com/58173938/196749934-9f174ba0-8eb0-4454-8689-a64d0b3c3e75.png)
+Install putty on you're local machine or on you're type2 hypervisor
 
 
 After sucessfull installation type `putty` in the respected fiels, enter putty in search bar <br>
